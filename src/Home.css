@@ -1,0 +1,48 @@
+body{
+  height: 600px;
+}
+
+.title{
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  /* margin-top: 150px; */
+  font-size: 100px;  
+  
+}
+.input{
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  
+  
+  
+}
+
+.inputBox{
+  height: 40px;
+  width: 350px;
+  
+}
+
+.suggestions{
+  height: 250px;
+  width:350px !important;
+  margin-left: 460px;
+  margin-top: 1px;
+  overflow-y:auto !important;
+
+} 
+.suggestions li{
+  overflow-y: auto !important;
+  width: 330px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+.suggestions li:hover{
+  background-color: lightblue;
+}
+
